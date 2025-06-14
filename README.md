@@ -1,5 +1,10 @@
-## Fetch API With curl PHP
+# Fetch API with cURL in PHP
 
+This example demonstrates how to use PHP's cURL functions to fetch data from a flight information API.
+
+## Example Code
+
+```php
 <?php
 
 $curl = curl_init();
@@ -17,18 +22,11 @@ curl_setopt_array($curl, [
 $response = curl_exec($curl);
 $err = curl_error($curl);
 
-if($err){
-    echo "CURL error : $err";
+if ($err) {
+    echo "cURL Error: $err";
 } else {
     echo "<script>console.table($response)</script>";
 }
-?>
+
 curl_close($curl);
-
-## Parametre Types"
-
-`arrivals`    : fetch data for all the arrival flights ./n/
-`departures`  : fetch data for all the departure flights."/n"
-`origin`      : fetch data for Origin the flights. /n
-`destination` : fetch data for Destination of the flights.
-`flight`      : fetch data/name of all the flights.
+?>
