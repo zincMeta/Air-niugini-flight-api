@@ -25,7 +25,7 @@ if($err){
 
 curl_close($curl);
 
-# Parametre Types
+## Parametre Types"
 
 `arrivals`    : fetch data for all the arrival flights
 `departures`  : fetch data for all the departure flights
