@@ -22,7 +22,7 @@ if($err){
 } else {
     echo "<script>console.table($response)</script>";
 }
-
+?>
 curl_close($curl);
 
 ## Parametre Types"
