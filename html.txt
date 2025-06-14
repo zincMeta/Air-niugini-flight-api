@@ -1,0 +1,31 @@
+<?php
+
+set_time_limit(0);
+ini_set('memory_limit', '512M');
+
+require("smiple_html_");
+
+// $url = "https://sweb2.com/SWEB2/projects/YT%20video%20downloader/index.php";
+// $contents = file_get_html($url);
+
+// $
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+	CURLOPT_URL => "https://sweb2.com/SWEB2/projects/YT%20video%20downloader/index.php",
+	CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_FOLLOWLOCATION =>true,
+    CURLOPT_SSL_VERIFYHOST => 0,
+    CURLOPT_SSL_VERIFYPEER => 0,
+]);
+
+$response = curl_exec($curl);
+if(curl_errno($response)){
+    echo "Curl Error : " . $response;
+}
+echo $response;
+
+$html = new simple_html_dom();
+
+$html->load($response);
+
