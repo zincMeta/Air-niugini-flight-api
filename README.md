@@ -1,6 +1,6 @@
 # Fetch API With curl PHP
 
-<?php
+`<?php
 
 $curl = curl_init();
 $url = "https://sweb2.com/SWEB2/web-scraping-php/web-scrapper-api.php?type=arrivals";
@@ -24,3 +24,4 @@ if($err){
 }
 
 curl_close($curl);
+`
