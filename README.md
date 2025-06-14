@@ -27,8 +27,8 @@ curl_close($curl);
 
 ## Parametre Types"
 
-`arrivals`    : fetch data for all the arrival flights.
-`departures`  : fetch data for all the departure flights.
-`origin`      : fetch data for Origin the flights.
+`arrivals`    : fetch data for all the arrival flights ./n/
+`departures`  : fetch data for all the departure flights."/n"
+`origin`      : fetch data for Origin the flights. /n
 `destination` : fetch data for Destination of the flights.
 `flight`      : fetch data/name of all the flights.
