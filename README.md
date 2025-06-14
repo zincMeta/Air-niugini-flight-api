@@ -1,8 +1,42 @@
-# Fetch API with cURL in PHP
+# ✈️ Fetch API with cURL in PHP
 
-This example demonstrates how to use PHP's cURL functions to fetch data from a flight information API.
+This project demonstrates how to fetch live or simulated flight data using PHP and the cURL library. It connects to a public API to retrieve information such as arrival and departure flights, flight origins, destinations, and flight names.
 
-## Example Code
+---
+
+## 🧰 Requirements
+
+- PHP 7.0 or higher  
+- Internet connection  
+- cURL enabled in your PHP installation  
+
+---
+
+## 📦 Installation
+
+1. Clone the repository or download the PHP file:
+
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd your-repo-name
+    ```
+
+3. Run the PHP script using a local server (e.g., XAMPP, MAMP, or PHP’s built-in web server):
+
+    ```bash
+    php -S localhost:8000
+    ```
+
+4. Visit `http://localhost:8000/index.php` (or your file name) in a web browser.
+
+---
+
+## 💡 Example Code
 
 ```php
 <?php
@@ -30,23 +64,3 @@ if ($err) {
 
 curl_close($curl);
 ?>
-# ✈️ Fetch Flight Data Using cURL in PHP
-
-This project demonstrates how to fetch live or simulated flight data using PHP and the cURL library. It connects to a public API to retrieve information such as arrival and departure flights, flight origins, destinations, and flight names.
-
----
-
-## 🧰 Requirements
-
-- PHP 7.0 or higher
-- Internet connection
-- cURL enabled on your PHP installation
-
----
-
-## 📦 Installation
-
-1. Clone the repository or download the PHP file:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
