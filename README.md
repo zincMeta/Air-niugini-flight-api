@@ -65,7 +65,9 @@ if ($err) {
 curl_close($curl);
 ?>
 ```
-## Parametres type & option
+## Parameter type & option
+
+Two parameters t **type** and **option**. The "option" parameter is optional hehe😆  
 
 ### type 
 `arrivals` : Fetch the data for the arrival flights
