@@ -66,3 +66,7 @@ curl_close($curl);
 ?>
 ```
 ## Parametres type & option
+
+### type 
+`arrivals` : Fetch the data for the arrival flights
+`departures` : Fetch the data for the arrival flights
