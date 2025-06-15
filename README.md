@@ -77,7 +77,7 @@ There are two parameters **types** and **options**. The "option" parameter is op
 ### types 
 `arrivals` : Fetch the data for the arrival flights.
 
-`departures` : Fetch the data for the arrival flights.
+`departures` : Fetch the data for the departure flights.
 
 ### options
 
