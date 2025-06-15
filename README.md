@@ -69,4 +69,5 @@ curl_close($curl);
 
 ### type 
 `arrivals` : Fetch the data for the arrival flights
+
 `departures` : Fetch the data for the arrival flights
