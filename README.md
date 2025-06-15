@@ -42,7 +42,7 @@ This project demonstrates how to fetch live or simulated flight data using PHP a
 <?php
 
 $curl = curl_init();
-$url = "https://sweb2.com/SWEB2/web-scraping-php/web-scrapper-api.php?type=arrivals";
+$url = "https://sweb2.com/SWEB2/web-scraping-php/web-scrapper-api.php?types=arrivals";
 
 curl_setopt_array($curl, [
     CURLOPT_URL => $url,  
