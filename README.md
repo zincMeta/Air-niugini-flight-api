@@ -65,12 +65,26 @@ if ($err) {
 curl_close($curl);
 ?>
 ```
-## Parameter type & option
+## Parameter types & options
 
-There are two parameters **type** and **option**. The "option" parameter is optional hehe😆 unless you want to fetch a 
-specific data from the flights data 
+There are two parameters **types** and **options**. The "option" parameter is optional hehe😆 unless you want to fetch a specific data from the flights data .
 
-### type 
-`arrivals` : Fetch the data for the arrival flights
+### types 
+`arrivals` : Fetch the data for the arrival flights.
 
-`departures` : Fetch the data for the arrival flights
+`departures` : Fetch the data for the arrival flights.
+
+### options
+
+`flights` : Fetch only the **flight** data from the arrival or departure flights.
+
+`destination` : Fetch only the **destination** data the from arrival or departure flights.
+
+`origin` : Fetch only the **origin** data the from arrival or departure flights.
+
+`scheduled` : Fetch only the **scheduled** data the from arrival or departure flights.
+
+`estimate` : Fetch only the **estimate** data the from arrival or departure flights.
+
+`status` : Fetch only the **status** data the from arrival or departure flights.
+
