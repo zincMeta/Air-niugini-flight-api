@@ -64,3 +64,5 @@ if ($err) {
 
 curl_close($curl);
 ?>
+```
+## Parametres type & option
